@@ -13,6 +13,6 @@ class String
         resultingAngle = 0
       end
 
-      resultingAngle.to_s
+      resultingAngle.abs.to_s
     end
 end
